@@ -48,7 +48,7 @@ The app provides a backend API documented via **Swagger**, and a frontend built 
    - Set up your `.env` file for PostgreSQL credentials.
    - Run the migrations:
      ```bash
-     npx prisma migrate dev
+     bunx prisma migrate dev
      ```
 
 5. Start the backend:
@@ -65,12 +65,12 @@ The app provides a backend API documented via **Swagger**, and a frontend built 
 
 2. Install dependencies:
    ```bash
-   npm install
+   bun install
    ```
 
 3. Run the frontend:
    ```bash
-   npm run dev
+   bun dev
    ```
 
 4. Access the frontend at `http://localhost:3000`.
@@ -82,8 +82,7 @@ The app provides a backend API documented via **Swagger**, and a frontend built 
 ## Project Structure
 
 - `backend/`: API and server-side logic.
-- `frontend/`: Client-side interface built with Next.js and styled with Tailwind CSS.
-- `README.md`: This file.
+- `frontend/`: Client-side interface built with Next.js and styled with Tailwind CSS and shadcn
 
 ## Screenshots
 
@@ -98,14 +97,3 @@ Here are some screenshots of the application:
 - ![Screenshot 7](https://i.imgur.com/o9dd6Z6.png)
 
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add your feature'`).
-4. Push to your branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
